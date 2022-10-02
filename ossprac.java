@@ -1,4 +1,4 @@
-package OSSPrac;
+package ossp1;
 import java.util.Scanner;
 public class ossprac {
     public static void main(String[] args) {
@@ -10,10 +10,13 @@ public class ossprac {
 		int num = sc.nextInt();
         System.out.print("학과를 입력하세요: ");
 		String ma = sc.next();
+		System.out.print("학교를 입력하세요: ");
+		String sh = sc.next();
 		System.out.println("\n"+ "<출력>");
 		System.out.println("이름: "+ name);
 		System.out.println("학번: "+ num);
-        System.out.print("학과: "+ ma);
+        System.out.println("학과: "+ ma);
+		System.out.print("학교: "+ sh);
 		sc.close();
 	}
 }
