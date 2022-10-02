@@ -10,10 +10,13 @@ public class ossprac {
 		int num = sc.nextInt();
         System.out.print("학과를 입력하세요: ");
 		String ma = sc.next();
+		System.out.print("학년를 입력하세요: ");
+		int gr = sc.nextInt();
 		System.out.println("\n"+ "<출력>");
 		System.out.println("이름: "+ name);
 		System.out.println("학번: "+ num);
-        System.out.print("학과: "+ ma);
+        System.out.println("학과: "+ ma);
+		System.out.print("학년: "+ gr);
 		sc.close();
 	}
 }
