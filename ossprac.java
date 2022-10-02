@@ -1,4 +1,4 @@
-package OSSPrac;
+package ossp2;
 import java.util.Scanner;
 public class ossprac {
     public static void main(String[] args) {
